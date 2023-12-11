@@ -18,7 +18,7 @@ Task | BLIP w/ ViT-B | BLIP w/ ViT-B and CapFilt-L | BLIP w/ ViT-L
 Image-Text Retrieval (COCO) | <a href="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth">Download</a>| - | <a href="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large_retrieval_coco.pth">Download</a>
 
 ### Image-Text Retrieval:
-1. Download COCO dataset from the original websites, and set 'image_root' in configs/retrieval_{dataset}.yaml accordingly.
+1. Download COCO dataset from the original websites, and set 'image_root' in configs/retrieval_coco.yaml accordingly.
 2. To evaluate the finetuned BLIP model on COCO, run:
 <pre>python -m torch.distributed.run --nproc_per_node=8 train_retrieval.py \
 --config ./configs/retrieval_coco.yaml \
