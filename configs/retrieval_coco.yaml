@@ -1,4 +1,4 @@
-image_root: '/export/share/datasets/vision/coco/images/'
+image_root: '/Users/swatihu/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/Courses\Docs/Last\Sem/Vision\and\Language/project/COCO/vision-project/coco2014'
 ann_root: 'annotation'
 dataset: 'coco'
 
