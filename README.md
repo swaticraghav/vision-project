@@ -1,6 +1,8 @@
 ## BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
 
-<img src="BLIP.gif" width="700">
+As part of the project, two phases are performed on BLIP for the Image-Text retrieval task:
+1. Evaluation phase: Here, we assess the model's performance on the COCO dataset after fine-tuning.
+2. Fine-tuning phase: This involves training the pre-trained model on the COCO dataset.
 
 This is the PyTorch code of the <a href="https://arxiv.org/abs/2201.12086">BLIP paper</a> [[blog](https://blog.salesforceairesearch.com/blip-bootstrapping-language-image-pretraining/)]. The code has been tested on PyTorch 1.10.
 To install the dependencies, run <pre/>pip install -r requirements.txt</pre> 
